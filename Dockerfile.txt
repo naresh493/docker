@@ -108,7 +108,7 @@ RUN wget http://apache-mirror.rbc.ru/pub/apache/tomcat/tomcat-7/v7.0.73/bin/apac
 WORKDIR /opt/tomcat
 
 EXPOSE 8080
-EXPOSE 8009
+EXPOSE 7080
 
 
 USER tomcat
